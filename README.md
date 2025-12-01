@@ -4,7 +4,7 @@
 
 ## 🚀 Live Demo
 
-[[Live Demo](https://astrio-test-one.vercel.app/)]
+[Live Demo](https://astrio-test-one.vercel.app/)
 
 ## 📋 Реализованные уровни
 
