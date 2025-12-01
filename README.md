@@ -103,7 +103,7 @@ npm run generate
 ## 📁 Структура проекта
 
 ```
-product-catalog/
+app/
 ├── components/
 │   ├── product/
 │   │   ├── ProductCard.vue      # Карточка товара
@@ -146,21 +146,6 @@ product-catalog/
 - **Tablet**: 768px - 1023px
 - **Desktop**: 1024px - 1919px
 - **Large Desktop**: 1920px+
-
-## 🚀 Деплой на Vercel
-
-1. Запушить код на GitHub
-2. Зайти на [vercel.com](https://vercel.com)
-3. Подключить GitHub репозиторий
-4. Vercel автоматически определит Nuxt.js
-5. Deploy!
-
-### Или через CLI:
-
-```bash
-npm i -g vercel
-vercel
-```
 
 ## ✨ Возможности для улучшения
 
