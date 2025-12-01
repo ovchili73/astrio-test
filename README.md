@@ -4,7 +4,7 @@
 
 ## 🚀 Live Demo
 
-[Добавить ссылку после деплоя на Vercel]
+[[Live Demo](https://astrio-test-one.vercel.app/)]
 
 ## 📋 Реализованные уровни
 
