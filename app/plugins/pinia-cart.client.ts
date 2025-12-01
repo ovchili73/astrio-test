@@ -12,9 +12,14 @@ export default defineNuxtPlugin(() => {
         if (Array.isArray(parsed)) {
           store.$patch({ items: parsed });
         }
+
+        store.$patch({ isReady: true });
       } catch (e) {
         console.warn("Invalid cart in localStorage, ignoring:", e);
+        store.$patch({ isReady: true });
       }
+    } else {
+      store.$patch({ isReady: true });
     }
 
     store.$subscribe(

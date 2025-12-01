@@ -5,6 +5,7 @@ import type { Product, CartItem } from "~/types";
 
 export const useCartStore = defineStore("cart", () => {
   const { showToast } = useToast();
+  const isReady = ref<boolean>(false);
   const items = ref<CartItem[]>([]);
 
   const totalItems = computed(() =>
@@ -62,6 +63,7 @@ export const useCartStore = defineStore("cart", () => {
   };
 
   return {
+    isReady,
     items,
     totalItems,
     totalPrice,
